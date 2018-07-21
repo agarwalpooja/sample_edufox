@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.btext{
+    color: antiquewhite;
+    position: absolute;
+    text-align: center;
+    top:20%;
+    width:100%;
+    line-height: 0.8cm;
+}
+.btext h1{
+    font-size: 50px;
+    font-family: 'Monoton',cursive;
+}
+.btn{
+    color: azure;
+    text-decoration: none;
+    border: grey 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4 em;
+}
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+.parallax {
+    top: 0;
+    min-height: 100%;
+    background: transparent;
+    background-attachment: fixed;
+}
+img{
+    object-fit: cover;
+}
+
+#particles-js{
+    top: 0%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/hero-bg.jpg); 
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.parallax  img{
+    max-width: none;
+    width: your-width;
+    height: your-height;
+ }
+.sidenav {
+    height: 100%;
+    width: 0;
+    float: right;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 80%;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .navi{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: green;
+  display: block;
+  transition: 0.3s;
+
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .menu{
+    color: azure;
+    float: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* about */
+.service-text{
+    color: #111;
+}
+.column1 {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    border-block-start: 1px green solid;
+    height: auto; 
+    display: inline-block;
+    margin: 10px;
+
+}
+.row > .column1 {
+    padding: 0 8px;
+    margin-left: 8px;
+  }
+  /* testimonial */
+  /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: whitesmoke;
+    text-shadow: black 
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  /* contact */
+  * {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container1 {
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row > .column {
+    padding: 0 8px;
+  }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+  }
+/* 
+  
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
+
+
+.transition (@prop: all, @time: 1s, @ease: linear) {
+	-webkit-transition: @prop @time @ease;
+	-moz-transition: @prop @time @ease;
+	-o-transition: @prop @time @ease;
+	-ms-transition: @prop @time @ease;
+	transition: @prop @time @ease;
+}
+.universal-inline-block {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.contact-social {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: rgba(68, 138, 175, 1);;
+  h1 {
+    margin: 40px 0;
+  }
+  ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			.universal-inline-block;
+			vertical-align:  middle;
+			a {
+				display: block;
+				font-size: 1.4em;
+				margin: 0 5px;
+				text-decoration: none;
+				i {
+					color: @colorBase;
+					.transition(all, 0.2s, ease-in);
+				}
+				&:hover {
+					i {
+						color: darken(@colorBase, 20%);
+					}
+				}
+				&:focus, &:active {
+					i {
+						transition: none;
+						color: darken(rgba(68, 138, 175, 1), 40%);
+					}
+				}
+			}
+		}
+	}
+} */
